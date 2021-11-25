@@ -1,5 +1,3 @@
-/* eslint no-underscore-dangle: 0 */
-
 export default class Car {
   constructor(brand, motor, color) {
     this.brand = brand;
