@@ -1,5 +1,3 @@
-/* eslint no-underscore-dangle: 0 */
-
 export default class Currency {
   constructor(code, name) {
     this.code = code;
