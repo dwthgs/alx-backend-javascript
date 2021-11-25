@@ -1,5 +1,3 @@
-/* eslint no-underscore-dangle: 0 */
-
 export default class Pricing {
   constructor(amount, currency) {
     this.amount = amount;
