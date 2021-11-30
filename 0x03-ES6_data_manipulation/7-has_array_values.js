@@ -1,4 +1,3 @@
 export default function hasValuesFromArray(set, array) {
-  for (const n of array) if (!set.has(n)) return false;
-  return true;
+  return array.every((el) => Array.from(set).includes(el));
 }
