@@ -6,5 +6,5 @@ export default function cleanSet(set, startString) {
     }
   }
 
-  return joinedstr.slice(0, -1);
+  return joinedstr ? joinedstr.slice(0, -1) : '';
 }
