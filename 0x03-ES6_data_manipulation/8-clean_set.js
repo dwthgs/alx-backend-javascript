@@ -1,8 +1,8 @@
 export default function cleanSet(set, startString) {
-  let strList = [];
+  const strList = [];
   for (const str of set) {
     if (startString && str.startsWith(startString)) {
-      strList.push(str.replace(startString, ''));
+      strList.push(str.slice(startString.length));
     }
   }
 
