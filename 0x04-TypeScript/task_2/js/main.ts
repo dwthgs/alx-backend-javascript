@@ -6,7 +6,7 @@ interface DirectorInterface {
 
 interface TeacherInterface {
   workFromHome(): string;
-  getCoffeeBreak?(): string;
+  getCoffeeBreak(): string;
   workTeacherTasks(): string;
 }
 
