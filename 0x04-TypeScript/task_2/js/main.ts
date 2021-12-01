@@ -52,9 +52,9 @@ function executeWork(employee: any) {
   else if (employee instanceof Teacher) return employee.workTeacherTasks();
 }
 
-const Subjects = 'Math' || 'History';
+type Subjects = 'Math' | 'History';
 
-function teachClass(todayClass: typeof Subjects) {
+function teachClass(todayClass: Subjects) {
   if (todayClass === 'Math') return 'Teaching Math';
   else if (todayClass === 'History') return 'Teaching History';
 }
